@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\gif\gif_writer.cc" />
+    <ClCompile Include="..\..\src\gif_services\gif_services.cc" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gdcache.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gdfontg.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gdfontl.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gdfontmb.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gdfonts.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gdfontt.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gdft.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gdfx.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gdhelpers.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gdkanji.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gdtables.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_bmp.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_color.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_color_map.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_color_match.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_crop.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_filter.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_gd.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_gd2.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_gif_in.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_gif_out.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_interpolation.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_io.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_io_dp.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_io_file.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_io_ss.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_io_stream.cxx" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_jpeg.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_matrix.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_nnquant.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_png.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_rotate.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_security.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_ss.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_tga.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_tiff.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_topal.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_transform.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_version.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_webp.c" />
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_xbm.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\gif\gif_font.h" />
+    <ClInclude Include="..\..\src\gif\gif_font_giant.h" />
+    <ClInclude Include="..\..\src\gif\gif_font_large.h" />
+    <ClInclude Include="..\..\src\gif\gif_font_medium_bold.h" />
+    <ClInclude Include="..\..\src\gif\gif_font_small.h" />
+    <ClInclude Include="..\..\src\gif\gif_font_tiny.h" />
+    <ClInclude Include="..\..\src\gif\gif_struct.h" />
+    <ClInclude Include="..\..\src\gif\gif_writer.h" />
+    <ClInclude Include="..\..\src\gif_plugin\gif_plugin.h" />
+    <ClInclude Include="..\..\src\third_party\libgd\src\gd.h" />
+    <ClInclude Include="..\..\src\third_party\libgd\src\gdcache.h" />
+    <ClInclude Include="..\..\src\third_party\libgd\src\gdfontg.h" />
+    <ClInclude Include="..\..\src\third_party\libgd\src\gdfontl.h" />
+    <ClInclude Include="..\..\src\third_party\libgd\src\gdfontmb.h" />
+    <ClInclude Include="..\..\src\third_party\libgd\src\gdfonts.h" />
+    <ClInclude Include="..\..\src\third_party\libgd\src\gdfontt.h" />
+    <ClInclude Include="..\..\src\third_party\libgd\src\gdfx.h" />
+    <ClInclude Include="..\..\src\third_party\libgd\src\gdhelpers.h" />
+    <ClInclude Include="..\..\src\third_party\libgd\src\gdpp.h" />
+    <ClInclude Include="..\..\src\third_party\libgd\src\gd_color.h" />
+    <ClInclude Include="..\..\src\third_party\libgd\src\gd_color_map.h" />
+    <ClInclude Include="..\..\src\third_party\libgd\src\gd_errors.h" />
+    <ClInclude Include="..\..\src\third_party\libgd\src\gd_intern.h" />
+    <ClInclude Include="..\..\src\third_party\libgd\src\gd_io.h" />
+    <ClInclude Include="..\..\src\third_party\libgd\src\gd_io_stream.h" />
+    <ClInclude Include="..\..\src\third_party\libgd\src\gd_nnquant.h" />
+    <ClInclude Include="..\..\src\third_party\libgd\src\gd_tga.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5EC7F601-4424-484F-B404-B99FCCDC1A1F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>gif_services</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)\bin\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\obj\$(Configuration)\$(ProjectName)\</IntDir>
+    <LibraryPath>$(SolutionDir)\lib\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)\bin\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\obj\$(Configuration)\$(ProjectName)\</IntDir>
+    <LibraryPath>$(SolutionDir)\lib\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;BGDWIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\src\</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;BGDWIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\src\</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

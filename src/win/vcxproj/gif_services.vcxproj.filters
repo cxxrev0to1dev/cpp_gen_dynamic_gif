@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{eccfc369-9928-4c05-9fed-9251b8986628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gif">
+      <UniqueIdentifier>{813d2140-4b82-4637-b35b-ea295c2d2d7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gif_services">
+      <UniqueIdentifier>{abced36f-babd-43de-b4c0-3311d280ff70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gif_plugin">
+      <UniqueIdentifier>{2ca66bc1-b4a6-44a9-b6e7-01bebb933716}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\third_party">
+      <UniqueIdentifier>{566a62e7-da49-4931-a9e9-8ebefbadbd4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\third_party\libgd">
+      <UniqueIdentifier>{989a4cb1-c0b8-490b-9182-dd29eb53f9ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\gif_services\gif_services.cc">
+      <Filter>src\gif_services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_bmp.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_color.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_color_map.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_color_match.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_crop.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_filter.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_gd.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_gd2.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_gif_in.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_gif_out.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_interpolation.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_io.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_io_dp.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_io_file.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_io_ss.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_io_stream.cxx">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_jpeg.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_matrix.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_nnquant.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_png.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_rotate.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_security.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_ss.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_tga.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_tiff.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_topal.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_transform.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_version.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_webp.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gd_xbm.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gdcache.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gdfontg.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gdfontl.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gdfontmb.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gdfonts.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gdfontt.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gdft.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gdfx.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gdhelpers.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gdkanji.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\third_party\libgd\src\gdtables.c">
+      <Filter>src\third_party\libgd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gif\gif_writer.cc">
+      <Filter>src\gif</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\gif\gif_struct.h">
+      <Filter>src\gif</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gif\gif_font.h">
+      <Filter>src\gif</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gif_plugin\gif_plugin.h">
+      <Filter>src\gif_plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\third_party\libgd\src\gd.h">
+      <Filter>src\third_party\libgd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\third_party\libgd\src\gd_color.h">
+      <Filter>src\third_party\libgd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\third_party\libgd\src\gd_color_map.h">
+      <Filter>src\third_party\libgd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\third_party\libgd\src\gd_errors.h">
+      <Filter>src\third_party\libgd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\third_party\libgd\src\gd_intern.h">
+      <Filter>src\third_party\libgd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\third_party\libgd\src\gd_io.h">
+      <Filter>src\third_party\libgd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\third_party\libgd\src\gd_io_stream.h">
+      <Filter>src\third_party\libgd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\third_party\libgd\src\gd_nnquant.h">
+      <Filter>src\third_party\libgd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\third_party\libgd\src\gd_tga.h">
+      <Filter>src\third_party\libgd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\third_party\libgd\src\gdcache.h">
+      <Filter>src\third_party\libgd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\third_party\libgd\src\gdfontg.h">
+      <Filter>src\third_party\libgd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\third_party\libgd\src\gdfontl.h">
+      <Filter>src\third_party\libgd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\third_party\libgd\src\gdfontmb.h">
+      <Filter>src\third_party\libgd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\third_party\libgd\src\gdfonts.h">
+      <Filter>src\third_party\libgd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\third_party\libgd\src\gdfontt.h">
+      <Filter>src\third_party\libgd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\third_party\libgd\src\gdfx.h">
+      <Filter>src\third_party\libgd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\third_party\libgd\src\gdhelpers.h">
+      <Filter>src\third_party\libgd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\third_party\libgd\src\gdpp.h">
+      <Filter>src\third_party\libgd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gif\gif_font_giant.h">
+      <Filter>src\gif</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gif\gif_font_large.h">
+      <Filter>src\gif</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gif\gif_font_medium_bold.h">
+      <Filter>src\gif</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gif\gif_font_small.h">
+      <Filter>src\gif</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gif\gif_font_tiny.h">
+      <Filter>src\gif</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gif\gif_writer.h">
+      <Filter>src\gif</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
